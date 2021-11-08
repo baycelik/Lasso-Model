@@ -17,7 +17,7 @@ import numpy as np
 from sklearn.linear_model import Lasso
 from sklearn.linear_model import LassoCV
 
-data=pd.read_csv(r"../input/beer-consumption-sao-paulo/Consumo_cerveja.csv")
+data=pd.read_csv(r"../input/consumption-sao-paulo/Consumo_cerveja.csv")
 
 data.head()
 
